@@ -1,8 +1,12 @@
 {
-  "name": "virtuo-api",
+  "name": "@virtuo/api",
+  "version": "0.0.1",
   "module": "index.ts",
   "type": "module",
   "private": true,
+  "scripts": {
+    "build": "tsc index.ts"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },
