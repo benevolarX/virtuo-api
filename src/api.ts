@@ -1,6 +1,4 @@
-interface IVirtuoApi {
-  toString(): string 
-}
+import type { IVirtuoApi, IVirtuoApiBuilderConfig } from "./types"
 
 export class VirtuoApi implements IVirtuoApi {
 
@@ -18,5 +16,12 @@ export class VirtuoApi implements IVirtuoApi {
 
   toString(): string {
       return "ici virtuo api"
+  }
+}
+
+export const apiBuilder = (config: IVirtuoApiBuilderConfig = {}): IVirtuoApi => {
+
+  return {
+    toString: () => ""
   }
 }
