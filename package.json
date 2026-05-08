@@ -4,8 +4,9 @@
   "module": "src/index.ts",
   "type": "module",
   "private": true,
+  "files": ["index.ts"],
   "scripts": {
-    "build": "tsc index.ts"
+    "build": ""
   },
   "peerDependencies": {
     "typescript": "catalog:"
