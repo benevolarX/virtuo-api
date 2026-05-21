@@ -1,7 +1,3 @@
-interface IInput {
+interface IInput {}
 
-}
-
-export class Input implements IInput {
-  
-}
+export class Input implements IInput {}

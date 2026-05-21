@@ -1,12 +1,9 @@
 import { quit } from "virtuo-binding-tauri";
 
 export class VirtuoApi {
-
-  constructor() {
-
-  }
+  constructor() {}
 
   quit() {
-    (async () => await quit())()
+    (async () => await quit())();
   }
 }

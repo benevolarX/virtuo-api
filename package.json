@@ -1,20 +1,22 @@
 {
   "name": "@virtuo/api",
   "version": "0.0.1",
-  "module": "src/index.ts",
-  "type": "module",
   "private": true,
-  "files": ["index.ts"],
+  "files": [
+    "index.ts"
+  ],
+  "type": "module",
+  "module": "src/index.ts",
   "scripts": {
     "build": ""
   },
-  "peerDependencies": {
-    "typescript": "catalog:"
+  "dependencies": {
+    "virtuo-binding-tauri": "workspace:*"
   },
   "devDependencies": {
     "@types/bun": "catalog:"
   },
-  "dependencies": {
-    "virtuo-binding-tauri": "workspace:*"
+  "peerDependencies": {
+    "typescript": "catalog:"
   }
 }

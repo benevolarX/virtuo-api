@@ -1,7 +1,3 @@
-interface INetwork {
+interface INetwork {}
 
-}
-
-export class Network implements INetwork {
-  
-}
+export class Network implements INetwork {}
