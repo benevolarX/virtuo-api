@@ -14,9 +14,9 @@
     "virtuo-binding-tauri": "workspace:*"
   },
   "devDependencies": {
-    "@types/bun": "catalog:"
+    "@types/bun": "^1.3.14"
   },
   "peerDependencies": {
-    "typescript": "catalog:"
+    "typescript": "^6.0.3"
   }
 }
