@@ -1,7 +1,7 @@
 {
   "name": "@virtuo/api",
   "version": "0.0.1",
-  "private": true,
+  "private": false,
   "files": [
     "index.ts"
   ],
