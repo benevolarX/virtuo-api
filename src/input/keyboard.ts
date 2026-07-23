@@ -105,15 +105,9 @@ export const Keys: Key = {
   [KeyName.F]: (k) => k == "f" || k == "F",
   [KeyName.G]: (k) => k == "g" || k == "G",
   [KeyName.H]: (k) => k == "h" || k == "H",
-  [KeyName.I]: function (k: string): boolean {
-    throw new Error("Function not implemented.");
-  },
-  [KeyName.J]: function (k: string): boolean {
-    throw new Error("Function not implemented.");
-  },
-  [KeyName.K]: function (k: string): boolean {
-    throw new Error("Function not implemented.");
-  },
+  [KeyName.I]: (k) => k == "i" || k == "I",
+  [KeyName.J]: (k) => k == "j" || k == "J",
+  [KeyName.K]: (k) => k == "k" || k == "K",
   [KeyName.L]: function (k: string): boolean {
     throw new Error("Function not implemented.");
   },
@@ -318,7 +312,7 @@ export const Keys: Key = {
   [KeyName.Pause]: function (k: string): boolean {
     throw new Error("Function not implemented.");
   },
-};
+} as const;
 
 //type TestKey = (k: KeysName | string) => boolean
 /*
